@@ -7,8 +7,6 @@ let colors = document.querySelectorAll('.color');
 let main = document.querySelector('.main');
 let select = document.querySelector('.select');
 
-colors[0].style.backgroundColor = 'white';
-
 function randomColor(elem){
     let color = Math.floor(Math.random()*16777215).toString(16);
     elem.style.backgroundColor = '#' + color;
